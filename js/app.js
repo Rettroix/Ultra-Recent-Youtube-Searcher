@@ -10,7 +10,7 @@ $(function() {
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
             maxResults: 50,
             order: "date",
-            time: "today",
+            time: "today"
        }); 
        // execute the request
        request.execute(function(response) {
