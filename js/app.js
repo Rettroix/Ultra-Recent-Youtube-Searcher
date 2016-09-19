@@ -10,7 +10,7 @@ $(function() {
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
             maxResults: 50,
             order: "date",
-            time: "today"
+            publishedAfter: "2016-09-19T00:00:00Z"
        }); 
        // execute the request
        request.execute(function(response) {
