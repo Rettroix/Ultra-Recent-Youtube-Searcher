@@ -8,7 +8,7 @@ $(function() {
             part: "snippet",
             type: "video",
             q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
-            maxResults: 10000,
+            maxResults: 50,
             order: "date",
             publishedAfter: "2016-09-19T00:00:00Z"
        }); 
